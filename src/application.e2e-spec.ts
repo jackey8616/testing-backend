@@ -1,6 +1,6 @@
 import request from 'supertest';
 
-import application from './server';
+import application from './application';
 
 describe('Server', () => {
   describe('/exchange (GET)', () => {
