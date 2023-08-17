@@ -1,0 +1,45 @@
+{
+    "info": {
+        "_postman_id": "f0e0e879-b436-480a-95b7-5c72e03fcfdf",
+        "name": "Testing",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+        "description": ""
+    },
+    "item": [
+        {
+            "name": "Testing",
+            "request": {
+                "method": "GET",
+                "url": {
+                    "raw": "http://127.0.0.1:8085/exchange?source=USD&target=TWD&amount=58.0",
+                    "query": [
+                        {
+                            "key": "source",
+                            "value": "USD"
+                        },
+                        {
+                            "key": "target",
+                            "value": "TWD"
+                        },
+                        {
+                            "key": "amount",
+                            "value": "58.0"
+                        }
+                    ],
+                    "variable": [],
+                    "path": [
+                        "exchange"
+                    ],
+                    "protocol": "http",
+                    "host": [
+                        "127",
+                        "0",
+                        "0",
+                        "1"
+                    ],
+                    "port": "8085"
+                }
+            }
+        }
+    ]
+}

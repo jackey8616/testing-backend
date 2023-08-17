@@ -1,0 +1,39 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Testing",
+    "dateExported": "2023-08-17T06:39:44.588Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "13cfd689-3620-451e-9665-2a4ce2a6c1b3",
+            "colId": "6e5c9eeb-fdd4-4c20-bdd8-6a7f69c47b23",
+            "containerId": "",
+            "name": "Testing",
+            "url": "http://127.0.0.1:8085/exchange?source=USD&target=TWD&amount=58.0",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2023-08-17T06:38:47.493Z",
+            "modified": "2023-08-17T06:38:47.493Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "source",
+                    "value": "USD",
+                    "isPath": false
+                },
+                {
+                    "name": "target",
+                    "value": "TWD",
+                    "isPath": false
+                },
+                {
+                    "name": "amount",
+                    "value": "58.0",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        }
+    ]
+}

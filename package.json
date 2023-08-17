@@ -5,6 +5,7 @@
   "author": "Clooooode",
   "license": "MIT",
   "scripts": {
+    "start": "ts-node src/server.ts",
     "test": "jest"
   },
   "devDependencies": {
